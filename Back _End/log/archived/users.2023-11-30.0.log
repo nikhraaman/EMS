@@ -1,0 +1,514 @@
+2023-11-30 18:38:58,008 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 18:39:38,782 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] Starting S2B3T4ExpenseSystemApplication using Java 17.0.4.1 with PID 11304 (C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new\target\classes started by johnsa04 in C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new)
+2023-11-30 18:39:38,787 DEBUG com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-30 18:39:38,788 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 18:39:38,937 INFO org.springframework.boot.devtools.restart.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\Users\johnsa04\.m2\repository\com\oracle\database\jdbc\ojdbc8\21.9.0.0\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/johnsa04/.m2/repository/com/oracle/database/jdbc/ojdbc8/21.9.0.0/oraclepki.jar
+2023-11-30 18:39:38,938 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-30 18:39:38,938 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-30 18:39:40,861 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 18:39:41,020 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 145 ms. Found 3 JPA repository interfaces.
+2023-11-30 18:39:42,563 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2023-11-30 18:39:42,581 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:39:42,586 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-11-30 18:39:42,586 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-30 18:39:42,731 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-30 18:39:42,732 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3791 ms
+2023-11-30 18:39:42,872 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-11-30 18:39:42,881 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2023-11-30 18:39:43,850 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@48e88c15
+2023-11-30 18:39:43,856 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-11-30 18:39:43,879 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@ap-south-1-training-adpdevclass-oradbinstance.cvawnayo3dje.ap-south-1.rds.amazonaws.com:1521:ORCL'
+2023-11-30 18:39:44,189 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 18:39:44,278 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-30 18:39:44,283 INFO org.hibernate.cfg.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2023-11-30 18:39:44,777 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 18:39:47,256 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 18:40:15,447 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:40:16,073 INFO org.springframework.data.jpa.repository.query.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-30 18:40:16,684 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30 18:40:18,723 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-11-30 18:40:18,776 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:40:18,852 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2023-11-30 18:40:18,871 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] Started S2B3T4ExpenseSystemApplication in 40.956 seconds (process running for 44.22)
+2023-11-30 18:40:42,233 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30 18:40:42,234 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-11-30 18:40:42,237 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-2] Completed initialization in 3 ms
+2023-11-30 18:40:42,707 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [http-nio-8082-exec-2] EMPLOYEE SUCCESSFULLY LOGGED IN
+2023-11-30 18:41:02,092 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [http-nio-8082-exec-3] EXPENSE SHOWN SUCCESSFULLY
+2023-11-30 18:42:20,120 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-30 18:42:20,173 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-9] Pausing ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:42:20,173 WARN org.apache.tomcat.util.net.NioEndpoint [Thread-9] Failed to unlock acceptor for [http-nio-8082] because the local address was not available
+2023-11-30 18:42:20,173 INFO org.apache.catalina.core.StandardService [Thread-9] Stopping service [Tomcat]
+2023-11-30 18:42:20,176 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-9] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-30 18:42:20,173 ERROR org.apache.tomcat.util.net.Acceptor [http-nio-8082-Acceptor] Socket accept failed
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:521)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:79)
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-30 18:42:20,182 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-9] Stopping ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:42:20,187 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-9] Destroying ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:42:20,190 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-9] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:42:20,194 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-1 - Shutdown initiated...
+2023-11-30 18:42:20,644 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-1 - Shutdown completed.
+2023-11-30 18:42:20,840 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] Starting S2B3T4ExpenseSystemApplication using Java 17.0.4.1 with PID 11304 (C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new\target\classes started by johnsa04 in C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new)
+2023-11-30 18:42:20,842 DEBUG com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-30 18:42:20,845 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 18:42:21,810 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 18:42:21,910 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 99 ms. Found 3 JPA repository interfaces.
+2023-11-30 18:42:22,521 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2023-11-30 18:42:22,523 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:42:22,523 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-11-30 18:42:22,524 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-30 18:42:22,646 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-30 18:42:22,646 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1789 ms
+2023-11-30 18:42:22,712 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-11-30 18:42:22,712 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2023-11-30 18:42:23,257 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@592bc84e
+2023-11-30 18:42:23,257 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-11-30 18:42:23,257 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@ap-south-1-training-adpdevclass-oradbinstance.cvawnayo3dje.ap-south-1.rds.amazonaws.com:1521:ORCL'
+2023-11-30 18:42:23,313 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 18:42:23,324 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 18:42:23,639 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 18:42:52,553 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:42:53,215 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30 18:42:54,913 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-11-30 18:42:54,954 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:42:54,978 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2023-11-30 18:42:54,982 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30 18:42:54,982 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-30 18:42:54,985 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8082-exec-1] Completed initialization in 3 ms
+2023-11-30 18:42:54,992 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] Started S2B3T4ExpenseSystemApplication in 34.222 seconds (process running for 200.3)
+2023-11-30 18:42:54,998 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-11-30 18:42:56,624 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8082-exec-6] Init duration for springdoc-openapi is: 828 ms
+2023-11-30 18:45:03,674 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [http-nio-8082-exec-9] EMPLOYEE SUCCESSFULLY LOGGED IN
+2023-11-30 18:47:24,030 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 22 class path changes (0 additions, 21 deletions, 1 modification)
+2023-11-30 18:47:24,083 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-13] Pausing ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:47:24,083 ERROR org.apache.tomcat.util.net.Acceptor [http-nio-8082-Acceptor] Socket accept failed
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:521)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:79)
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-30 18:47:24,083 WARN org.apache.tomcat.util.net.NioEndpoint [Thread-13] Failed to unlock acceptor for [http-nio-8082] because the local address was not available
+2023-11-30 18:47:24,084 INFO org.apache.catalina.core.StandardService [Thread-13] Stopping service [Tomcat]
+2023-11-30 18:47:24,084 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-13] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-30 18:47:24,090 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-13] Stopping ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:47:24,093 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-13] Destroying ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:47:24,097 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-13] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:47:24,099 INFO com.zaxxer.hikari.HikariDataSource [Thread-13] HikariPool-2 - Shutdown initiated...
+2023-11-30 18:47:24,525 INFO com.zaxxer.hikari.HikariDataSource [Thread-13] HikariPool-2 - Shutdown completed.
+2023-11-30 18:47:24,809 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] Starting S2B3T4ExpenseSystemApplication using Java 17.0.4.1 with PID 11304 (C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new\target\classes started by johnsa04 in C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new)
+2023-11-30 18:47:24,809 DEBUG com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-30 18:47:24,809 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 18:47:25,525 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 18:47:25,528 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-11-30 18:47:25,838 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2023-11-30 18:47:25,840 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:47:25,840 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-11-30 18:47:25,841 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-30 18:47:25,957 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-30 18:47:25,958 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1141 ms
+2023-11-30 18:47:25,994 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2023-11-30 18:47:25,995 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2023-11-30 18:47:26,619 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-3 - Added connection oracle.jdbc.driver.T4CConnection@3165cd4f
+2023-11-30 18:47:26,620 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2023-11-30 18:47:26,620 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@ap-south-1-training-adpdevclass-oradbinstance.cvawnayo3dje.ap-south-1.rds.amazonaws.com:1521:ORCL'
+2023-11-30 18:47:26,674 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 18:47:26,696 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 18:47:26,936 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 18:47:26,937 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:47:27,031 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30 18:47:28,474 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-11-30 18:47:28,510 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:47:28,533 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8082 (http) with context path ''
+2023-11-30 18:47:28,547 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] Started S2B3T4ExpenseSystemApplication in 3.909 seconds (process running for 473.841)
+2023-11-30 18:47:28,550 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-11-30 18:47:34,231 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 18 class path changes (18 additions, 0 deletions, 0 modifications)
+2023-11-30 18:47:34,284 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-19] Pausing ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:47:34,284 ERROR org.apache.tomcat.util.net.Acceptor [http-nio-8082-Acceptor] Socket accept failed
+java.nio.channels.AsynchronousCloseException: null
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:376)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:399)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:521)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:79)
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-30 18:47:34,284 WARN org.apache.tomcat.util.net.NioEndpoint [Thread-19] Failed to unlock acceptor for [http-nio-8082] because the local address was not available
+2023-11-30 18:47:34,285 INFO org.apache.catalina.core.StandardService [Thread-19] Stopping service [Tomcat]
+2023-11-30 18:47:34,292 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-19] Stopping ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:47:34,294 INFO org.apache.coyote.http11.Http11NioProtocol [Thread-19] Destroying ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:47:34,297 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-19] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:47:34,299 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-3 - Shutdown initiated...
+2023-11-30 18:47:34,719 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-3 - Shutdown completed.
+2023-11-30 18:47:34,949 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] Starting S2B3T4ExpenseSystemApplication using Java 17.0.4.1 with PID 11304 (C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new\target\classes started by johnsa04 in C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new)
+2023-11-30 18:47:34,951 DEBUG com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-30 18:47:34,951 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 18:47:35,760 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 18:47:35,943 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 181 ms. Found 3 JPA repository interfaces.
+2023-11-30 18:47:36,462 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2023-11-30 18:47:36,463 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:47:36,464 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-11-30 18:47:36,464 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-30 18:47:36,564 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-30 18:47:36,565 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1607 ms
+2023-11-30 18:47:36,625 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2023-11-30 18:47:36,625 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2023-11-30 18:47:37,071 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-4 - Added connection oracle.jdbc.driver.T4CConnection@792f5231
+2023-11-30 18:47:37,072 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2023-11-30 18:47:37,072 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@ap-south-1-training-adpdevclass-oradbinstance.cvawnayo3dje.ap-south-1.rds.amazonaws.com:1521:ORCL'
+2023-11-30 18:47:37,208 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 18:47:37,245 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 18:47:37,565 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 18:47:55,507 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.adp.S2B3T4_expense_system.controller.EmployeeControllerTest]: EmployeeControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 18:47:55,865 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication for test class com.adp.S2B3T4_expense_system.controller.EmployeeControllerTest
+2023-11-30 18:47:56,220 INFO org.springframework.boot.devtools.restart.RestartApplicationListener [main] Restart disabled due to context in which it is running
+2023-11-30 18:47:57,262 INFO com.adp.S2B3T4_expense_system.controller.EmployeeControllerTest [main] Starting EmployeeControllerTest using Java 17.0.4.1 with PID 30952 (started by johnsa04 in C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new)
+2023-11-30 18:47:57,264 DEBUG com.adp.S2B3T4_expense_system.controller.EmployeeControllerTest [main] Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-30 18:47:57,265 INFO com.adp.S2B3T4_expense_system.controller.EmployeeControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 18:48:00,918 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:48:01,338 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'employeeService': Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'modelMapper': Error creating bean with name 'modelMapper' defined in com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
+2023-11-30 18:48:01,338 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:48:01,339 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Shutdown initiated...
+2023-11-30 18:48:01,741 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Shutdown completed.
+2023-11-30 18:48:01,742 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2023-11-30 18:48:01,752 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-30 18:48:01,796 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'employeeService': Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'modelMapper': Error creating bean with name 'modelMapper' defined in com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:747)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:950)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication.main(S2B3T4ExpenseSystemApplication.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'modelMapper': Error creating bean with name 'modelMapper' defined in com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:747)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'modelMapper' defined in com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:654)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:488)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	... 39 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:157)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	... 52 common frames omitted
+Caused by: java.lang.IllegalArgumentException: object is not an instance of declaring class
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 53 common frames omitted
+2023-11-30 18:48:05,877 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-30 18:48:05,878 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-30 18:48:05,881 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 3 ms
+2023-11-30 18:48:06,006 INFO com.adp.S2B3T4_expense_system.controller.EmployeeControllerTest [main] Started EmployeeControllerTest in 9.834 seconds (process running for 14.041)
+2023-11-30 18:48:06,478 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [main] EMPLOYEE SUCCESSFULLY LOGGED IN
+2023-11-30 18:48:06,923 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [main] EXPENSE SHOWN SUCCESSFULLY
+2023-11-30 18:48:06,946 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.adp.S2B3T4_expense_system.controller.ManagerControllerTest]: ManagerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 18:48:06,960 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication for test class com.adp.S2B3T4_expense_system.controller.ManagerControllerTest
+2023-11-30 18:48:06,980 INFO org.springframework.boot.devtools.restart.RestartApplicationListener [main] Restart disabled due to context in which it is running
+2023-11-30 18:48:07,100 INFO com.adp.S2B3T4_expense_system.controller.ManagerControllerTest [main] Starting ManagerControllerTest using Java 17.0.4.1 with PID 30952 (started by johnsa04 in C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new)
+2023-11-30 18:48:07,101 DEBUG com.adp.S2B3T4_expense_system.controller.ManagerControllerTest [main] Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-30 18:48:07,101 INFO com.adp.S2B3T4_expense_system.controller.ManagerControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 18:48:08,725 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 18:48:08,941 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 181 ms. Found 3 JPA repository interfaces.
+2023-11-30 18:48:10,795 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 18:48:11,063 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-30 18:48:11,074 INFO org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-30 18:48:11,644 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 18:48:11,734 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-30 18:48:11,750 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2023-11-30 18:48:13,086 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3833897c
+2023-11-30 18:48:13,093 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-30 18:48:16,555 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 18:48:45,117 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:48:46,373 INFO org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-30 18:48:47,968 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30 18:48:51,217 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-30 18:48:51,219 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-30 18:48:51,221 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 2 ms
+2023-11-30 18:48:51,286 INFO com.adp.S2B3T4_expense_system.controller.ManagerControllerTest [main] Started ManagerControllerTest in 44.306 seconds (process running for 59.321)
+2023-11-30 18:48:52,988 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.adp.S2B3T4_expense_system.dao.ExpenseDaoTest]: ExpenseDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 18:48:53,051 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication for test class com.adp.S2B3T4_expense_system.dao.ExpenseDaoTest
+2023-11-30 18:48:53,179 INFO org.springframework.boot.devtools.restart.RestartApplicationListener [main] Restart disabled due to context in which it is running
+2023-11-30 18:48:53,269 INFO com.adp.S2B3T4_expense_system.dao.ExpenseDaoTest [main] Starting ExpenseDaoTest using Java 17.0.4.1 with PID 30952 (started by johnsa04 in C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new)
+2023-11-30 18:48:53,270 DEBUG com.adp.S2B3T4_expense_system.dao.ExpenseDaoTest [main] Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-30 18:48:53,270 INFO com.adp.S2B3T4_expense_system.dao.ExpenseDaoTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 18:48:53,538 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 18:48:53,611 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+2023-11-30 18:48:53,637 INFO org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor [main] Replacing 'dataSource' DataSource bean with embedded version
+2023-11-30 18:48:53,702 INFO org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory [main] Starting embedded database: url='jdbc:h2:mem:879b7086-bab0-4168-b8d5-c39599850b50;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-11-30 18:48:54,386 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 18:48:54,414 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 18:48:54,622 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 18:48:54,716 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:48:54,942 INFO com.adp.S2B3T4_expense_system.dao.ExpenseDaoTest [main] Started ExpenseDaoTest in 1.763 seconds (process running for 62.977)
+2023-11-30 18:48:55,000 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.adp.S2B3T4_expense_system.dto.EmployeeDtoTest]: EmployeeDtoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 18:48:55,060 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication for test class com.adp.S2B3T4_expense_system.dto.EmployeeDtoTest
+2023-11-30 18:48:55,072 INFO org.springframework.boot.devtools.restart.RestartApplicationListener [main] Restart disabled due to context in which it is running
+2023-11-30 18:48:55,140 INFO com.adp.S2B3T4_expense_system.dto.EmployeeDtoTest [main] Starting EmployeeDtoTest using Java 17.0.4.1 with PID 30952 (started by johnsa04 in C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new)
+2023-11-30 18:48:55,141 DEBUG com.adp.S2B3T4_expense_system.dto.EmployeeDtoTest [main] Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-30 18:48:55,142 INFO com.adp.S2B3T4_expense_system.dto.EmployeeDtoTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 18:48:55,697 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 18:48:55,770 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+2023-11-30 18:48:56,005 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 18:48:56,035 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 18:48:56,038 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2023-11-30 18:48:56,038 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2023-11-30 18:48:56,548 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@2673ba1f
+2023-11-30 18:48:56,549 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2023-11-30 18:48:56,875 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 18:49:24,302 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:49:24,882 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30 18:49:26,696 INFO com.adp.S2B3T4_expense_system.dto.EmployeeDtoTest [main] Started EmployeeDtoTest in 31.624 seconds (process running for 94.731)
+2023-11-30 18:49:26,829 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.adp.S2B3T4_expense_system.dto.ExpenseDtoTest]: ExpenseDtoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 18:49:26,833 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication for test class com.adp.S2B3T4_expense_system.dto.ExpenseDtoTest
+2023-11-30 18:49:26,961 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.adp.S2B3T4_expense_system.entity.ExpenseTest]: ExpenseTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 18:49:27,028 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication for test class com.adp.S2B3T4_expense_system.entity.ExpenseTest
+2023-11-30 18:49:27,082 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplicationTests]: S2B3T4ExpenseSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 18:49:27,118 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication for test class com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplicationTests
+2023-11-30 18:49:27,886 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:49:27,895 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-30 18:49:28,354 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-30 18:49:28,357 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:49:28,362 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:49:28,363 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2023-11-30 18:49:28,839 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2023-11-30 18:49:54,113 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] Starting S2B3T4ExpenseSystemApplication using Java 17.0.4.1 with PID 11304 (C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new\target\classes started by johnsa04 in C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new)
+2023-11-30 18:49:54,113 DEBUG com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-30 18:49:54,114 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 18:49:54,889 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 18:49:54,970 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 81 ms. Found 3 JPA repository interfaces.
+2023-11-30 18:49:55,210 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8082 (http)
+2023-11-30 18:49:55,213 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8082"]
+2023-11-30 18:49:55,214 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-11-30 18:49:55,214 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-30 18:49:55,260 INFO org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-30 18:49:55,260 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1143 ms
+2023-11-30 18:49:55,290 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2023-11-30 18:49:55,290 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2023-11-30 18:49:55,790 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-5 - Added connection oracle.jdbc.driver.T4CConnection@54fb2113
+2023-11-30 18:49:55,790 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2023-11-30 18:49:55,791 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@ap-south-1-training-adpdevclass-oradbinstance.cvawnayo3dje.ap-south-1.rds.amazonaws.com:1521:ORCL'
+2023-11-30 18:49:55,879 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 18:49:55,907 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 18:49:56,214 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 18:50:20,707 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:50:21,244 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'employeeService': Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'modelMapper': Error creating bean with name 'modelMapper' defined in com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
+2023-11-30 18:50:21,245 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 18:50:21,246 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Shutdown initiated...
+2023-11-30 18:50:21,704 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Shutdown completed.
+2023-11-30 18:50:21,706 INFO org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2023-11-30 18:50:21,723 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-30 18:50:21,736 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'employeeService': Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'modelMapper': Error creating bean with name 'modelMapper' defined in com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:747)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:950)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication.main(S2B3T4ExpenseSystemApplication.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'modelMapper': Error creating bean with name 'modelMapper' defined in com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:747)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'modelMapper' defined in com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:654)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:488)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	... 39 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.modelmapper.ModelMapper]: Illegal arguments to factory method 'modelMapper'; args: 
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:157)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	... 52 common frames omitted
+Caused by: java.lang.IllegalArgumentException: object is not an instance of declaring class
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 53 common frames omitted
+2023-11-30 19:14:40,275 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.adp.S2B3T4_expense_system.dao.ExpenseDaoTest]: ExpenseDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 19:14:40,765 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication for test class com.adp.S2B3T4_expense_system.dao.ExpenseDaoTest
+2023-11-30 19:14:42,913 INFO org.springframework.boot.devtools.restart.RestartApplicationListener [main] Restart disabled due to context in which it is running
+2023-11-30 19:14:43,765 INFO com.adp.S2B3T4_expense_system.dao.ExpenseDaoTest [main] Starting ExpenseDaoTest using Java 17.0.4.1 with PID 29692 (started by johnsa04 in C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new)
+2023-11-30 19:14:43,767 DEBUG com.adp.S2B3T4_expense_system.dao.ExpenseDaoTest [main] Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-30 19:14:43,768 INFO com.adp.S2B3T4_expense_system.dao.ExpenseDaoTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 19:14:44,719 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 19:14:44,943 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 189 ms. Found 3 JPA repository interfaces.
+2023-11-30 19:14:45,102 INFO org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor [main] Replacing 'dataSource' DataSource bean with embedded version
+2023-11-30 19:14:45,638 INFO org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory [main] Starting embedded database: url='jdbc:h2:mem:5d26650a-602f-4217-80c6-b97ac2b1ce69;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-11-30 19:14:46,864 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 19:14:47,449 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-30 19:14:47,464 INFO org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-30 19:14:48,557 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 19:14:51,539 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 19:14:51,704 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 19:14:52,423 INFO org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-30 19:14:52,805 INFO com.adp.S2B3T4_expense_system.dao.ExpenseDaoTest [main] Started ExpenseDaoTest in 9.92 seconds (process running for 14.92)
+2023-11-30 19:14:53,701 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplicationTests]: S2B3T4ExpenseSystemApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 19:14:53,742 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication for test class com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplicationTests
+2023-11-30 19:14:53,788 INFO org.springframework.boot.devtools.restart.RestartApplicationListener [main] Restart disabled due to context in which it is running
+2023-11-30 19:14:53,939 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplicationTests [main] Starting S2B3T4ExpenseSystemApplicationTests using Java 17.0.4.1 with PID 29692 (started by johnsa04 in C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new)
+2023-11-30 19:14:53,939 DEBUG com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplicationTests [main] Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-30 19:14:53,940 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 19:14:55,212 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 19:14:55,263 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+2023-11-30 19:14:56,157 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 19:14:56,177 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 19:14:56,181 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-30 19:14:56,193 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2023-11-30 19:14:57,319 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@79225399
+2023-11-30 19:14:57,326 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-30 19:14:58,501 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 19:15:21,836 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 19:15:22,449 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30 19:15:24,041 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplicationTests [main] Started S2B3T4ExpenseSystemApplicationTests in 30.247 seconds (process running for 46.15)
+2023-11-30 19:15:24,081 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.adp.S2B3T4_expense_system.dto.EmployeeDtoTest]: EmployeeDtoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 19:15:24,104 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication for test class com.adp.S2B3T4_expense_system.dto.EmployeeDtoTest
+2023-11-30 19:15:24,146 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.adp.S2B3T4_expense_system.dto.ExpenseDtoTest]: ExpenseDtoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 19:15:24,148 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication for test class com.adp.S2B3T4_expense_system.dto.ExpenseDtoTest
+2023-11-30 19:15:24,428 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.adp.S2B3T4_expense_system.entity.ExpenseTest]: ExpenseTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 19:15:24,453 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication for test class com.adp.S2B3T4_expense_system.entity.ExpenseTest
+2023-11-30 19:15:24,482 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.adp.S2B3T4_expense_system.controller.ManagerControllerTest]: ManagerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 19:15:24,517 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication for test class com.adp.S2B3T4_expense_system.controller.ManagerControllerTest
+2023-11-30 19:15:24,522 INFO org.springframework.boot.devtools.restart.RestartApplicationListener [main] Restart disabled due to context in which it is running
+2023-11-30 19:15:24,555 INFO com.adp.S2B3T4_expense_system.controller.ManagerControllerTest [main] Starting ManagerControllerTest using Java 17.0.4.1 with PID 29692 (started by johnsa04 in C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new)
+2023-11-30 19:15:24,555 DEBUG com.adp.S2B3T4_expense_system.controller.ManagerControllerTest [main] Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-30 19:15:24,555 INFO com.adp.S2B3T4_expense_system.controller.ManagerControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 19:15:24,891 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 19:15:24,935 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 44 ms. Found 3 JPA repository interfaces.
+2023-11-30 19:15:25,098 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 19:15:25,109 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 19:15:25,110 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2023-11-30 19:15:25,111 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2023-11-30 19:15:25,625 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@48ec519
+2023-11-30 19:15:25,626 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2023-11-30 19:15:25,932 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 19:15:56,023 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 19:15:56,246 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-30 19:15:57,121 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-30 19:15:57,121 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-30 19:15:57,122 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 1 ms
+2023-11-30 19:15:57,134 INFO com.adp.S2B3T4_expense_system.controller.ManagerControllerTest [main] Started ManagerControllerTest in 32.605 seconds (process running for 79.237)
+2023-11-30 19:15:58,381 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.adp.S2B3T4_expense_system.controller.EmployeeControllerTest]: EmployeeControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 19:15:58,394 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication for test class com.adp.S2B3T4_expense_system.controller.EmployeeControllerTest
+2023-11-30 19:15:58,397 INFO org.springframework.boot.devtools.restart.RestartApplicationListener [main] Restart disabled due to context in which it is running
+2023-11-30 19:15:58,417 INFO com.adp.S2B3T4_expense_system.controller.EmployeeControllerTest [main] Starting EmployeeControllerTest using Java 17.0.4.1 with PID 29692 (started by johnsa04 in C:\Users\johnsa04\OneDrive - Automatic Data Processing Inc\Desktop\expense_project_new\S2B3T4_expense_system_new)
+2023-11-30 19:15:58,417 DEBUG com.adp.S2B3T4_expense_system.controller.EmployeeControllerTest [main] Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-30 19:15:58,418 INFO com.adp.S2B3T4_expense_system.controller.EmployeeControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 19:15:58,904 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-30 19:15:58,904 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-30 19:15:58,905 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 1 ms
+2023-11-30 19:15:58,907 INFO com.adp.S2B3T4_expense_system.controller.EmployeeControllerTest [main] Started EmployeeControllerTest in 0.51 seconds (process running for 81.009)
+2023-11-30 19:15:58,915 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [main] EMPLOYEE SUCCESSFULLY LOGGED IN
+2023-11-30 19:15:58,984 INFO com.adp.S2B3T4_expense_system.S2B3T4ExpenseSystemApplication [main] EXPENSE SHOWN SUCCESSFULLY
+2023-11-30 19:16:00,886 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 19:16:00,891 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 19:16:00,892 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-30 19:16:01,303 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-30 19:16:01,305 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 19:16:01,306 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2023-11-30 19:16:01,702 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
