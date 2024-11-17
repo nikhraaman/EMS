@@ -1,0 +1,37 @@
+pipeline {
+  agent any
+  stages {
+    stage('Install Packages') {
+      steps {
+        // bat 'npm cache clean --force'
+        bat 'npm install'
+      }
+    } 
+        stage('Create Build Artifacts') {
+          steps {
+            bat 'npm run build'
+          }
+        }
+    //replace order-ui with your docker image name at all places	
+    stage('Docker Build') {
+            steps {
+			echo 'Docker Build'
+        bat 'docker build -t  docker.repository.esi.adp.com/clientcentral/training:S2B3T4_ems_frontend -f Dockerfile .'
+			//bat label: 'Docker Build', script: '''docker build -t docker.repository.esi.adp.com/clientcentral/training:order-ui -f Dockerfile .'''
+            }
+        }
+    
+    stage('Docker Push'){
+            steps {
+                bat 'docker push docker.repository.esi.adp.com/clientcentral/training:S2B3T4_ems_frontend'
+            }
+        }
+        
+        stage('Docker deploy'){
+            steps {
+               
+                bat 'docker run -itd -p  3000:3000 docker.repository.esi.adp.com/clientcentral/training:S2B3T4_ems_frontend'
+            }
+        }
+  }
+  }
